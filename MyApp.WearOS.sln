@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Android.Wear.Watchface", "Android.Wear.Watchface\Android.Wear.Watchface.csproj", "{0F39C554-2A83-4553-8EF8-55C77627AFC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Android.Wear.Watchface.Style", "Android.Wear.Watchface.Style\Android.Wear.Watchface.Style.csproj", "{17792D5E-7C60-4283-B1F4-926E07D4FDCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Android.Wear.Watchface.Data", "Android.Wear.Watchface.Data\Android.Wear.Watchface.Data.csproj", "{5F20E41C-DED1-41AC-B653-A2E55343D462}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Android.Wear.Watchface.Complications", "Android.Wear.Watchface.Complications\Android.Wear.Watchface.Complications.csproj", "{2F486C54-814B-45ED-81D0-29181BFDC97E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Android.Wear.Watchface.Complications.Data", "Android.Wear.Watchface.Complications.Data\Android.Wear.Watchface.Complications.Data.csproj", "{F5701BC3-7F46-4A43-86DE-D0C4A4A3B195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.WearOS", "Sample.WearOS\Sample.WearOS.csproj", "{A4117195-116B-4F8E-98FE-45F22C5306EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F39C554-2A83-4553-8EF8-55C77627AFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F39C554-2A83-4553-8EF8-55C77627AFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F39C554-2A83-4553-8EF8-55C77627AFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F39C554-2A83-4553-8EF8-55C77627AFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17792D5E-7C60-4283-B1F4-926E07D4FDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17792D5E-7C60-4283-B1F4-926E07D4FDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17792D5E-7C60-4283-B1F4-926E07D4FDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17792D5E-7C60-4283-B1F4-926E07D4FDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F20E41C-DED1-41AC-B653-A2E55343D462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F20E41C-DED1-41AC-B653-A2E55343D462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F20E41C-DED1-41AC-B653-A2E55343D462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F20E41C-DED1-41AC-B653-A2E55343D462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F486C54-814B-45ED-81D0-29181BFDC97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F486C54-814B-45ED-81D0-29181BFDC97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F486C54-814B-45ED-81D0-29181BFDC97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F486C54-814B-45ED-81D0-29181BFDC97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5701BC3-7F46-4A43-86DE-D0C4A4A3B195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5701BC3-7F46-4A43-86DE-D0C4A4A3B195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5701BC3-7F46-4A43-86DE-D0C4A4A3B195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5701BC3-7F46-4A43-86DE-D0C4A4A3B195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4117195-116B-4F8E-98FE-45F22C5306EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4117195-116B-4F8E-98FE-45F22C5306EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4117195-116B-4F8E-98FE-45F22C5306EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4117195-116B-4F8E-98FE-45F22C5306EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {619B8B78-A910-4025-AE96-3F93CF7B475B}
+	EndGlobalSection
+EndGlobal

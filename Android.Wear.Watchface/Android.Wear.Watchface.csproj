@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.7.21"/>
+    </ItemGroup>
+    <ItemGroup>
+        <LibraryProjectZip Include="Jars\watchface-1.1.1.aar"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Android.Wear.Watchface.Data\Android.Wear.Watchface.Data.csproj"/>
+        <ProjectReference Include="..\Android.Wear.Watchface.Style\Android.Wear.Watchface.Style.csproj"/>
+    </ItemGroup>
+</Project>
